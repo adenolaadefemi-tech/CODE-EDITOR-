@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="editor-header">
+        <h1>🐦 Adenola Tech Editor</h1>
+        <p>Type your HTML/CSS code below to see it live</p>
+    </header>
+    <div class="editor-container">
+        <div class="pane input-pane">
+            <div class="pane-title">Source Code Input</div>
+            <textarea id="code-input" placeholder="Type HTML here..." spellcheck="false"><h1>Hello World!</h1>
+<p>Welcome to my live editor project.</p></textarea>
+        </div>
+        <div class="pane output-pane">
+            <div class="pane-title">Live Preview Window</div>
+            <iframe id="live-preview"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+          </html>
+          
